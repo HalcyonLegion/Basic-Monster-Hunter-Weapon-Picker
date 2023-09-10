@@ -9,23 +9,20 @@
 }
 
 /******************************************
-/* LAYOUT
-/*******************************************/
-
-h1, h2, div, section, p {
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.hidden{
-	display: none;
-}
-
-/******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 body{
   background-color: rgb(18, 73, 148);
+}
+
+#image-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-display img {
+  max-width: 100%;
+  height: auto;
 }
